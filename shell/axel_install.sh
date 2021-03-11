@@ -1,4 +1,5 @@
 #!/bin/bash
+
 function axel_install() {
     if grep -Eqi "CentOS" /etc/issue || grep -Eq "CentOS" /etc/*-release; then
         yum -y install gcc openssl openssl-devel

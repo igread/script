@@ -1,4 +1,5 @@
 #!/bin/bash
+
 function update_ubuntu() {
     #ubuntu内核版本
 
